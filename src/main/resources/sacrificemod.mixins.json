@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sacrificemod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMixin",
+    "ItemFinishUsingMixin",
+    "LootRandomizeMixin",
+    "RecipeRandomizeMixin",
+    "MobEntityAccessor",
+    "ArcherEntitySpawnMixin",
+    "ArrowWaterMixin",
+    "ArcherArrowEffectMixin"
+  ],
+  "client": [
+    "BipedEntityModelMixin",
+    "PlayerEntityModelMixin",
+    "HandledScreenMixin",
+    "PaperItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

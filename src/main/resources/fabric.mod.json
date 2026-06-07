@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dapanng",
+  "version": "${version}",
+  "name": "dapanng",
+  "description": "A mod that adds multiple gameplay modes including sacrifice, paper person, disabled, roguelike, speed, and random features.",
+  "authors": ["Developer"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.sacrificemod.SacrificeMod"],
+    "client": ["com.sacrificemod.SacrificeModClient"]
+  },
+  "mixins": ["sacrificemod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
