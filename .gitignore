@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 模组产物（保留wrapper的jar）
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# 其他
+*.log
